@@ -13,6 +13,7 @@ Repository for test and sample projects. Each project lives in its own directory
 | [PixCap](./PixCap) | TypeScript, Node | TypeScript app; build with `tsc` and run with `node app` (or use `run.bat`). |
 | [CarIQ](./CarIQ) | Docker | Wallet/ticket/fare API: create wallet, deposit, get fare, buy ticket. Run with `docker compose up`; API at http://localhost:8080. |
 | [Pismo](./Pismo) | Docker | Accounts and transactions API: create account, create transaction, list transactions. Run with `docker compose up`; API at http://localhost:8080. |
+| [Solo_HR](./Solo_HR) | React, Vite, Tailwind, FastAPI | Nike-style e-commerce frontend (cart, categories, auth UI) with optional FastAPI + SQLite backend (register, login, JWT, `/me`). Solo HR evaluation tasks. |
 
 ## Running a project
 
@@ -27,3 +28,4 @@ Each project has its own setup. Go into the project folder and follow its README
 | PixCap | `tsc app.ts` then `node app`, or `run.bat` (from project root) |
 | CarIQ | `docker compose up` |
 | Pismo | `docker compose up` |
+| Solo_HR | Frontend: `npm install` → `npm run dev` (http://localhost:5173). Optional backend: `cd backend` → `pip install -r requirements.txt` → `uvicorn main:app --reload --port 8000` |
