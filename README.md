@@ -27,5 +27,5 @@ Each project has its own setup. Go into the project folder and follow its README
 | data-visualization-graph | `npm install` → `npm run dev` |
 | PixCap | `tsc app.ts` then `node app`, or `run.bat` (from project root) |
 | CarIQ | `docker compose up` |
-| Pismo | `docker compose up` |
+| Pismo | `docker compose up` | 5H8ycDEkYkPjV6nbSqpYyNQmEye53wgiznj5BNbkjWVmoMxQ
 | Solo_HR | Frontend: `npm install` → `npm run dev` (http://localhost:5173). Optional backend: `cd backend` → `pip install -r requirements.txt` → `uvicorn main:app --reload --port 8000` |
